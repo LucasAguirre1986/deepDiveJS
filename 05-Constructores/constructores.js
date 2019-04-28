@@ -9,6 +9,7 @@ CalculadoraNPI.prototype.agregar =function(value){
 	this.arr.push(value)
 	
 }
+
 CalculadoraNPI.prototype.sumar =function(value){
 	if(this.arr.length < 1){
 			throw 'La calculadoraNPI necesita por lo menos 2 números'

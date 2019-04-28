@@ -6,6 +6,7 @@ function concatenar(...resto){
 	return string;
 }
 
+
 function invocarFunciones(fn, fn2=""){
 	if (fn2!='') return fn() + fn2()
 	return fn();
